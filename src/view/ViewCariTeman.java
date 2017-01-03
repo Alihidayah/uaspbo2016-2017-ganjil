@@ -26,6 +26,7 @@ public class ViewCariTeman extends javax.swing.JFrame {
      */
     public ViewCariTeman() {
         initComponents();
+        setLocationRelativeTo(null);
     }
 
     /**

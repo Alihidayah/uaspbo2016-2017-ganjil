@@ -61,6 +61,7 @@ public class MenuUtama extends javax.swing.JFrame {
         });
         jMenu1.add(jMenuItem1);
 
+        jMenuItem5.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
         jMenuItem5.setText("Daftar Teman");
         jMenuItem5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
