@@ -74,6 +74,8 @@ public class ViewPinjam extends javax.swing.JPanel {
         jTextArea1.setEditable(false);
         jButtonCari.setEnabled(false);
         bersihJTextField();
+        jButtonSimpan.setEnabled(false);
+        jButtonBaru.setText("Baru");
     }
 
     private void bersihJTextField() {
@@ -350,7 +352,6 @@ public class ViewPinjam extends javax.swing.JPanel {
                 while (rs.next()) {
                     jComboBox1.addItem(rs.getString("nama"));
                 }
-
                 rs.last();
                 int jumlahdata = rs.getRow();
                 rs.first();

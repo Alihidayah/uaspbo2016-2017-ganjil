@@ -74,6 +74,8 @@ public class ViewTeman extends javax.swing.JPanel {
         jTextFieldHp.setEditable(false);
         jTextFieldEmail.setEditable(false);
         bersihJTextField();
+        jButtonSimpan.setEnabled(false);
+        jButtonBaru.setText("Baru");
     }
     
     private void bersihJTextField(){
